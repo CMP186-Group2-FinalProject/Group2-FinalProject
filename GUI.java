@@ -3,7 +3,6 @@ import java.awt.*;
 import java.awt.event.*;
 import java.util.EventListener;
 import java.io.*;
-
 /**
  * RegistrationSystem class instantiates and manages a set of graphical user
  * interfaces to handle display and maintenance of student information.
@@ -12,13 +11,12 @@ import java.io.*;
  * Assignment 6
  * @author Rodrigo Fuzon
  */
-
 public class GUI extends JFrame
 {
 	/**
 	 * The default size of the main frame.
 	 */
-	public static final Dimension FRAME_SIZE = new Dimension(600,425);
+	public static final Dimension FRAME_SIZE = new Dimension(630,425);
 	/**
 	 * The minimum size of the main frame.
 	 */
